@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>Write a javascript method that accept a string and in returen send back the logest word of the string</p>
+    <script>
+    
+      function checkLongest(mesg){
+        let arr=mesg.split(/\s+/);;
+        console.log(arr);
+
+        return arr;
+
+      }
+      let ans= checkLongest("This is the message");
+      console.log("The Longest word is :", ans);
+    </script>
+</body>
+</html>
